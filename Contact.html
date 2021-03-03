@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Reach Me</h1>
+    <ol>
+      <li><a href="mailto:marrluisaldea@gmail.com">Email</a></li>
+      <li><a href="tel:+16467507635">Phone</a></li>
+      <li><a href="LuisResume.docx">Resume</a></li>
+    </ol>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/marr-luis-titus-aldea-48262a176/">Linkedin</a></li>
+      <li><a href="https://www.facebook.com/L.TitusAldea">Facebook</a></li>
+      <li><a href="https://www.instagram.com/luisaldea/">Instagram</a></li>
+    </ul>
+    <hr>
+
+    <!--To Create a question box-->
+    <h1>Ask Questions</h1>
+    <form action="mailto:marrluisaldea@gmail.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend><strong>Information</strong></legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="yourName"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="yourLastName"><br><br>
+
+        <label for="phone">Enter your cellphone number:</label>
+          <input type="tel" id="phone" name="yourPhone" placeholder="917-202-492"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9{3}]" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="yourEmail"><br><br>
+
+        <br>
+          <textarea rows="5" cols="100" name="comment" form="usrform">
+            Enter your comment here...
+          </textarea>
+          <br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    
+    <footer>
+        <p>Designed and Code by Luis Aldea 🔥</p>
+    </footer>
+  </body>
+</html>
